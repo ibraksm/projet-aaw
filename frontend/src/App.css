@@ -5,7 +5,25 @@ nav {
     padding: 1rem;
 }
 
+button {
+    cursor: pointer;
+}
+
 .login-button {
-    padding-block: 0.5rem;
+    display: flex;
+    align-items: center;
+    column-gap: 0.3em;
+    background: linear-gradient(45deg, #4752C4, #6571F3);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    font-family: "GG Sans", sans-serif;
+    font-weight: 600;
+    font-size: 14pt;
+    color: white;
+    border-radius: 40px;
+    padding-block: 1rem;
     padding-inline: 2rem;
+}
+
+.discord-logo {
+    height: 1em;
 }
